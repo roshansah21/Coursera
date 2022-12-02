@@ -1,6 +1,6 @@
-# Coursera_Course
-#University_of_Illinois_at_Urbana_Champaign
-#Energy, #Environment, and Everyday Life
+# Coursera_Course_Answers
+#Energy_Environment_and_Everyday_Life(Environment Pollution)
+#Linux_Programming
 
 -------------------------------------------------------------------------------------
 
@@ -624,4 +624,189 @@ QUIZ:-
 
 
 Thanks for visit !!
+
+
+
+
+----------------------------Linux Programming Solutions-----------------------------------
+
+Intro to System Programming
+
+1.
+Question 1
+System Programming is similar to Application Programming in that both may interact with the kernel and C library.
+True
+
+
+2.
+Question 2
+System programs can use system calls (syscalls) to invoke kernel functions from user space.
+True
+
+
+3.
+Question 3
+As an alternative to using system calls to invoke kernel functions, user space applications can be directly linked with kernel space functions.
+
+False
+
+
+
+4.
+Question 4
+Select examples of wrapper functions provided by the C library glibc (select any which apply).
+
+System calls
+Threading support
+
+
+5.
+Question 5
+APIs ensure source compatibility.  This means: 
+
+Application source code can be compiled for another platform and expected to work properly.
+
+
+
+
+6.
+Question 6
+Select all the true statements about ABIs (select any which apply):
+
+
+Can define how an application interacts with itself.
+
+Can define how an application interacts with libraries.
+
+Can define how an application interacts with the kernel.
+
+Enforced by the toolchain for a platform.
+
+
+
+7.
+Question 7
+In Linux, most everything is accessed as a file, except for device access, which is handled completely differently.
+
+False
+
+
+8.
+Question 8
+A Linux file's inode contains the following parameters (select any which apply):
+
+
+Modification timestamp
+Owner of the file 
+File type 
+Location of the file's data on disk 
+
+
+
+9.
+Question 9
+Linux Directories are used to map names with which to access files.
+
+True
+
+
+
+10.
+Question 10
+Select the types of Linux files referred to as "Special files" (select any which apply):
+
+Block devices 
+Character devices 
+Named pipes
+
+
+
+11.
+Question 11
+Block devices and character devices are similar in that they can both address memory on byte boundaries as opposed to sector boundaries.
+
+True
+
+
+
+12.
+Question 12
+Block devices and character devices are similar in that they are both considered "Special files".
+
+
+True
+
+
+
+13.
+Question 13
+Processes use memory virtualization, meaning each process appears to use its own single linear address space.
+
+True
+
+
+14.
+Question 14
+Two threads running under the same Process each use their own process memory space and can't access each other's memory.
+
+False
+
+
+15.
+Question 15
+The uid value of 1 is associated with a special user known as root.
+
+False
+
+
+16.
+Question 16
+Select the permission represented by the octal value 755:
+
+Owner may read, write, execute. Group and Everyone else may read and execute only.
+
+
+
+
+17.
+Question 17
+Select the permissions represented by the octal value 640:
+
+Owner may read and write only. Group may read only. Everyone else has no access.
+
+
+Correct
+18.
+Question 18
+Signals are used as a one-way asynchronous notification mechanism for a process.
+
+True
+
+
+
+19.
+Question 19
+The Ctrl-C handler is an example of what type of communication mechanism in Linux?
+
+Signal
+
+
+
+
+20.
+Question 20
+Which of the following is an Absolute Pathname 
+
+home/user/Documents
+
+
+
+21.
+Question 21
+Which of the following is a Relative Pathname
+
+httpd/httpd.conf
+
+
+
 
